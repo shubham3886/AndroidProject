@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Login">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="158dp"
+        android:layout_height="226dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/sistec" />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:inputType="textEmailAddress"
+        android:hint="E-Mail Id"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Log_In"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
+
+
+</RelativeLayout>
